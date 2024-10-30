@@ -147,67 +147,120 @@
             color: #5f6368;
             margin-top: 5px;
         }
+
+        .footer-section {
+            background-color: #f8f9fa;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            color: #5f6368;
+        }
+        .footer-links {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 15px;
+            margin-bottom: 10px;
+        }
+        .footer-logo {
+            height: 24px;
+            margin-right: 10px;
+        }
+        .footer-links a {
+            color: #5f6368;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        .footer-links a:hover {
+            text-decoration: underline;
+        }
+        .footer-language {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #5f6368;
+            gap: 5px;
+        }
+        .globe-icon {
+            width: 16px;
+            height: 16px;
+        }
     </style>
 </head>
 <body>
 
-<!-- Header with Google Workspace logo and new menu icon -->
-<div class="header-bar">
-    <img src="https://www.gstatic.com/images/icons/material/system/1x/menu_black_24dp.png" alt="Menu Icon" class="menu-icon" onclick="toggleMenu()">
-    <img src="Google_Workspace_750x96px_clr_lockup_Google_Product_624x96px_clr.png" alt="Google Workspace Logo" class="workspace-logo">
-</div>
-
-<!-- Main Content Container -->
-<div class="container">
-    <img src="workspace4icons.svg" alt="Google Workspace Icons" class="icon-image">
-    <div class="title">What is Google<br> Workspace?</div>
-    <div class="description">
-        Google Workspace is a productivity solution designed to help you safely connect, create, and collaborate with tools like Gmail, Docs, Meet, and more.
-    </div>
-    <div class="screenshot">
-        <img src="unnamed.webp" alt="Workspace Screenshot">
+    <!-- Header with Google Workspace logo and new menu icon -->
+    <div class="header-bar">
+        <img src="https://www.gstatic.com/images/icons/material/system/1x/menu_black_24dp.png" alt="Menu Icon" class="menu-icon" onclick="toggleMenu()">
+        <img src="Google_Workspace_750x96px_clr_lockup_Google_Product_624x96px_clr.png" alt="Google Workspace Logo" class="workspace-logo">
     </div>
 
-    <!-- Business-grade features section -->
-    <div class="business-section">
-        <div class="business-title">Get business-grade features with a Google Workspace business account</div>
-        <div class="business-description">
-            Business plans include a professional email address, enhanced productivity and collaboration tools, and the ability to add Gemini AI – all to help your business grow.
+    <!-- Main Content Container -->
+    <div class="container">
+        <img src="workspace4icons.svg" alt="Google Workspace Icons" class="icon-image">
+        <div class="title">What is Google<br> Workspace?</div>
+        <div class="description">
+            Google Workspace is a productivity solution designed to help you safely connect, create, and collaborate with tools like Gmail, Docs, Meet, and more.
+        </div>
+        <div class="screenshot">
+            <img src="unnamed.webp" alt="Workspace Screenshot">
+        </div>
+
+        <!-- Business-grade features section -->
+        <div class="business-section">
+            <div class="business-title">Get business-grade features with a Google Workspace business account</div>
+            <div class="business-description">
+                Business plans include a professional email address, enhanced productivity and collaboration tools, and the ability to add Gemini AI – all to help your business grow.
+            </div>
+            <button class="get-started-button">Get started</button>
+            <div class="email-section">
+                <div class="premium-label">Premium feature</div>
+                <p>Give your business credibility by getting a custom <span style="color:#1a73e8;">you@yourbusiness.com</span> email address.</p>
+            </div>
+        </div>
+
+        <!-- Image of person with Gmail overlay -->
+        <div class="image-container">
+            <img src="unnamed.png" alt="Person image" class="person-image">
+        </div>
+
+        <!-- New Section -->
+        <div class="features-section">
+            <div class="feature">
+                <p>Premium Meet and Calendar features</p>
+            </div>
+            <div class="feature">
+                <p>Extra storage and security</p>
+            </div>
+            <div class="feature">
+                <p>Get an AI-powered assistant in Gmail, Docs, and more</p>
+            </div>
+        </div>
+
+        <!-- Bottom Feature Section with Image and Text -->
+        <div class="bottom-feature-section">
+            <img src="workspace4icons.svg" alt="Four Workspace Icons" class="bottom-feature-image">
+            <div class="bottom-feature-title">Connect, create and collaborate with Google Workspace for your business.</div>
+            <div class="bottom-feature-subtitle">Ready to learn more?</div>
         </div>
         <button class="get-started-button">Get started</button>
-        
-        <div class="email-section">
-            <div class="premium-label">Premium feature</div>
-            <p>Give your business credibility by getting a custom <span style="color:#1a73e8;">you@yourbusiness.com</span> email address.</p>
-        </div>
-    </div>
-    
-    <!-- Image of person with Gmail overlay -->
-    <div class="image-container">
-        <img src="unnamed.png" alt="Person image" class="person-image">
     </div>
 
-    <!-- New Section -->
-    <div class="features-section">
-        <div class="feature">
-            <p>Premium Meet and Calendar features</p>
+    <!-- Footer Section -->
+    <div class="footer-section">
+        <div class="footer-links">
+            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_light_color_92x30dp.png" alt="Google Logo" class="footer-logo">
+            <a href="#">About Google</a>
+            <a href="#">Google products</a>
+            <a href="#">Privacy</a>
+            <a href="#">Terms</a>
         </div>
-        <div class="feature">
-            <p>Extra storage and security</p>
-        </div>
-        <div class="feature">
-            <p>Get an AI-powered assistant in Gmail, Docs, and more</p>
+        <div class="footer-language">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Globe_icon.svg" alt="Globe icon" class="globe-icon">
+            English – South Africa
         </div>
     </div>
-
-    <!-- Bottom Feature Section with Image and Text -->
-    <div class="bottom-feature-section">
-        <img src="workspace4icons.svg" alt="Four Workspace Icons" class="bottom-feature-image">
-        <div class="bottom-feature-title">Connect, create and collaborate with Google Workspace for your business.</div>
-        <div class="bottom-feature-subtitle">Ready to learn more?</div>
-    </div>
-    <button class="get-started-button">Get started</button>
-</div>
 
 </body>
-            </html>
+    </html>
