@@ -132,6 +132,50 @@
         .menu { /* Styles for the menu */
             /* your menu styles here */
         }
+        /* Image container for person image with Gmail overlay */
+.image-container {
+    position: relative;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.person-image {
+    width: 90%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+.gmail-overlay {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.gmail-overlay img {
+    width: 24px;
+    height: 24px;
+    }
+.features-section {
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.feature {
+    border-left: 2px solid #dadce0;
+    padding-left: 20px;
+    font-size: 16px;
+    color: #202124;
+    margin-top: 20px;
+    }
     </style>
 </head>
 <body>
@@ -170,6 +214,25 @@
             <p>Give your business credibility by getting a custom <span style="color:#1a73e8;">you@yourbusiness.com</span> email address.</p>
         </div>
     </div>
+    <!-- Image of person with Gmail overlay -->
+<div class="image-container">
+    <img src="person.jpg" alt="Person image" class="person-image">
+    <div class="gmail-overlay">
+        <img src="gmail-icon.png" alt="Gmail icon">
+    </div>
+    </div>
+    <!-- New Section -->
+<div class="features-section">
+    <div class="feature">
+        <p>Premium Meet and Calendar features</p>
+    </div>
+    <div class="feature">
+        <p>Extra storage and security</p>
+    </div>
+    <div class="feature">
+        <p>Get an AI-powered assistant in Gmail, Docs and more</p>
+    </div>
+        </div>
 </div>
 
 <script>
