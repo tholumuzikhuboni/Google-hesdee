@@ -15,14 +15,14 @@
         .header-bar {
             display: flex;
             align-items: center;
-            background-color: #f1f3f4;
+            background-color: white;
             padding: 10px;
             border-bottom: 1px solid #dadce0;
             position: fixed;
             top: 0;
             width: 100%;
             z-index: 10;
-            gap: 10px; /* Reduces space between icon and logo */
+            gap: 10px;
         }
         .menu-icon {
             width: 25px;
@@ -31,7 +31,7 @@
         }
         .workspace-logo {
             height: 24px;
-            width: auto; /* Adjust to fit logo naturally */
+            width: auto;
         }
 
         /* Sidebar menu styling */
@@ -150,13 +150,6 @@
 <div class="header-bar">
     <img src="https://www.gstatic.com/images/icons/material/system/1x/menu_black_24dp.png" alt="Menu Icon" class="menu-icon" onclick="toggleMenu()">
     <img src="Google_Workspace_750x96px_clr_lockup_Google_Product_624x96px_clr.png" alt="Google Workspace Logo" class="workspace-logo">
-</div>
-
-<!-- Sidebar Menu -->
-<div class="menu" id="sidebarMenu">
-    <p>Menu Item 1</p>
-    <p>Menu Item 2</p>
-    <p>Menu Item 3</p>
 </div>
 
 <!-- Main Content Container -->
